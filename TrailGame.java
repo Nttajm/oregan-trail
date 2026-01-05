@@ -4,7 +4,7 @@ import java.util.Random;
 public class TrailGame {
     private Scanner scanner = new Scanner(System.in);
     private Random rand = new Random();
-
+    // hello there
     // code that checks supplies and returns conditions
     public int checkSupplies(int food, int ammo) {
         if (food < 3 && ammo < 3) {
