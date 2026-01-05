@@ -5,7 +5,7 @@ public class TrailGame {
     private Scanner scanner = new Scanner(System.in);
     private Random rand = new Random();
 
-    // Checks supplies and returns condition code
+    // code that checks supplies and returns conditions
     public int checkSupplies(int food, int ammo) {
         if (food < 3 && ammo < 3) {
             System.out.println("You're in bad shape—starving and unarmed!");
@@ -198,4 +198,5 @@ public class TrailGame {
 /**
  * TrailGame.java
  * A simplified text-based Oregon Trail adventure game.
+
  */
